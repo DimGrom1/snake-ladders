@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffe9b8;
+}
+body .container {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+body .container h1 {
+  color: #919191;
+}
+body .container h2 {
+  color: #919191;
+}
+body .container h2 span {
+  color: #141414;
+}
+body .container #rules {
+  color: #ff4343;
+}
+body .container #dice {
+  width: 80px;
+  display: block;
+  transition: 2s;
+}
+body .container #game {
+  background: blue;
+  position: relative;
+}
+body .container #game #player {
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  border-radius: 100px;
+  left: 0;
+  bottom: 0;
+  transition: 0.4s;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("player.gif");
+}
+body .container #game #bot {
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  border-radius: 100px;
+  left: 0;
+  bottom: 0;
+  transition: 0.4s;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("bot.gif");
+}
+body .container #game #map {
+  width: 100%;
+  display: block;
+  margin: 15px auto;
+}/*# sourceMappingURL=style.css.map */

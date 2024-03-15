@@ -1,0 +1,55 @@
+body
+    font-family: sans-serif
+    background-color: #ffe9b8
+    .container
+        width: 90%
+        max-width: 500px
+        margin: auto
+        text-align: left
+        h1
+            color: #919191
+        h2
+            color: #919191
+            span
+                color: #141414
+        #rules
+            color: #ff4343ff
+        #dice
+            width: 80px
+            display: block
+            transition: 2s
+        #game
+            background: blue
+            position: relative
+            #player
+                position: absolute
+                width: 12%
+                height: 12%
+                border-radius: 100px
+                left: 0
+                bottom: 0
+                // background-color: tomato
+                // transform: translate(-30%)
+                transition: 0.4s
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center
+                background-image: url("player.gif")
+            #bot
+                position: absolute
+                width: 12%
+                height: 12%
+                border-radius: 100px
+                left: 0
+                bottom: 0
+                // background-color: tomato
+                // transform: translate(-20%)
+                transition: 0.4s
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center
+                background-image: url("bot.gif")
+            #map
+                width: 100%
+                display: block
+                margin: 15px auto
